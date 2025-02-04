@@ -1,0 +1,42 @@
+body{
+    margin: 0
+}
+
+.accordion-title{
+    font-weight: 700;
+    background-color: rgb(164, 158, 158);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.align-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accordion-items{
+    border: 1px solid black;
+    width: 300px;
+    /* padding: 5px; */
+
+}
+
+.accordion-body{
+    margin: 0;
+    padding: .5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
