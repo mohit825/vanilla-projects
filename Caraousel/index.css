@@ -1,0 +1,16 @@
+
+.image{
+    width: 100%;
+    height: 300px;
+}
+.btn{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
